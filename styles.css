@@ -47,7 +47,6 @@ body {
 }
 
 .column {
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  transform: rotate(90deg);
 }
