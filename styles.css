@@ -5,3 +5,33 @@
     box-sizing: border-box;
     text-align: justify;
 }
+
+@media (max-width: 600px) {
+.column{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+}
+
+@media (min-width: 600px) and (max-width: 1200px) { 
+    .column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+}
+
+@media (min-width: 1201px) {
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+}
